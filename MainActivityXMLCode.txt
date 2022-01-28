@@ -1,0 +1,53 @@
+xml version=1.0 encoding=utf-8
+LinearLayout xmlnsandroid=httpschemas.android.comapkresandroid
+    xmlnstools=httpschemas.android.comtools
+    androidlayout_width=match_parent
+    androidlayout_height=match_parent
+    androidbaselineAligned=false
+    androidgravity=center
+    androidorientation=vertical
+
+    LinearLayout
+        androidlayout_width=wrap_content
+        androidorientation=vertical
+        androidlayout_height=wrap_content
+        androidlayout_alignParentTop=true
+        androidlayout_centerHorizontal=true
+        androidlayout_marginTop=122dp
+        androidid=@+idlinearLayout2
+
+        TextView
+            androidid=@+idtextView2
+            androidlayout_width=match_parent
+            androidlayout_height=wrap_content
+            androidlayout_below=@+idlinearLayout2
+            androidlayout_centerHorizontal=true
+            androidlayout_marginTop=21dp
+            androidtext=Fill fields to REGISTER 
+
+
+        EditText
+            androidid=@+idemailInput
+            androidlayout_width=match_parent
+            androidlayout_height=wrap_content
+            androidems=10
+            androidhint=Email 
+            androidinputType=textEmailAddress
+            androidminHeight=48dp 
+
+        EditText
+            androidid=@+idpassInput
+            androidlayout_width=match_parent
+            androidlayout_height=wrap_content
+            androidems=10
+            androidhint=Password
+            androidinputType=textEmailAddress
+            androidminHeight=48dp 
+
+        Button
+            androidid=@+idsubmitButton
+            androidlayout_width=match_parent
+            androidlayout_height=wrap_content
+            androidtext=Submit 
+    LinearLayout
+LinearLayout 
